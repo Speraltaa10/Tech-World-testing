@@ -1,0 +1,15 @@
+{
+  "name": "atdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:atdd": "cucumber-js features --require step_definitions/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0"
+  }
+}
